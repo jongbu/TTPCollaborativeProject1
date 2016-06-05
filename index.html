@@ -2,61 +2,18 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Javascript Loops</title>
+	<link rel="stylesheet" type="text/css" href=
+	"style.css">
+	<title>FoodMap</title>
 </head>
 <body>
-
-<h2>Javascript Form Validation</h2>
-<form onsubmit="return validate()">
-  Username:<br>
-  <input type="text" id="username"><br>
-  Password:<br>
-  <input type="password" id="password">
-  <br><br>
-  <input id="form" type="submit" value="Submit">
-  <p id="valid"></p>
-</form>
-
-<br>
-<hr>
-<h2>Interactive Javascript</h2>
-
-First Name: <input type="text" id="id" value="p1">
-
-<p>Type in the text id to change the respective paragraph. Example: p1 for paragraph 1 and submit</p>
-
-<button onclick="changeContent()">Submit</button>
-<p id="p1">
-paragraph 1
-</p>
-<p id="p2">
-paragraph 2
-</p>
-<p id="p3">
-paragraph 3
-</p>
-<p id="p4">
-paragraph 4
-</p>
-<p id="p5">
-paragraph 5
-</p>
-
-
-<br>
-<hr>
-<h2>Event Handling</h2>
-<p id="event" onclick="eventTest()">
-I'm an Event. ClICK mE 
-</p>
-
-<h1 id="header">
-I'm a Header and I output header alerts.
-</h1>
-<script src="script.js" type="text/javascript">
-	whileLoop();
-	idRetriever("title");
-</script>
-
+<ul>
+  	<li><a class="active" href="index.html">Home</a></li>
+  	<li><a href="post.html">Donate</a></li>
+  	<li><a href="gallery.html">Gallery</a></li>
+</ul>
+<div id="googleMap" style="width:100%; height:1000px;"></div>
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+<script src="script.js"></script>
 </body>
 </html>
